@@ -1,0 +1,33 @@
+name: Generate
+
+ DOCX
+
+on:
+  push:
+    branches: ["*"]
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install docxtpl jinja2
+
+      - name: Generate DOCX
+        run: python generate.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-docx
+          path: res6ph.docx
