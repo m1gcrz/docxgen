@@ -9,14 +9,14 @@
     "title": "DevOps Engineer",
     "text": "Specialist experienced working with a high-volume Digital Telco carrier; focused on streamlining processes, tooling and collaborating with agile teams, delivering code to production while minimizing risks",
     "target_role": "DevOps/SRE Engineer",
-    "enabled": true
+    "enabled": false
   },
     {
     "id": "support-focused",
     "title": "Support Engineer",
     "text": "IT Support Engineer (Corporate Operations Engineer) focused on Implementation and Support of IT Assets for Multi-platforms - Windows/MacOS/Linux through tenure as ad-hoc support under an MSP with Operational knowledge of underlying Infrastructures",
     "target_role": "Support Engineer",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": "security-focused",
@@ -36,7 +36,7 @@
       {
         "name": "Certified Kubernetes Administrator (CKA)",
         "details": "Linux Foundation, 2023",
-        "enabled": true
+        "enabled": false
       },
       {
         "name": "F5 Certified BIG-IP Administrator",
@@ -129,39 +129,39 @@
     "core_competencies": [
   {
     "name": "CI/CD Pipeline Management",
-    "enabled": true
+    "enabled": false
   },
   {
     "name": "Infrastructure as Code (Terraform, CloudFormation)",
-    "enabled": true
+    "enabled": false
   },
   {
     "name": "Certified Kubernetes Administrator (CKA)",
-    "enabled": true
+    "enabled": false
   },
   {
     "name": "Container Orchestration (Docker, Kubernetes)",
-    "enabled": true
+    "enabled": false
   },
   {
     "name": "AWS Cloud Infrastructure & Deployment",
-    "enabled": true
+    "enabled": false
   },
   {
     "name": "Production Automation with Python",
-    "enabled": true
+    "enabled": false
   },
   {
     "name": "Jenkins CI/CD Automation",
-    "enabled": true
+    "enabled": false
   },
   {
     "name": "Configuration Management (Ansible)",
-    "enabled": true
+    "enabled": false
   },
   {
     "name": "GitOps & Git-based Deployments",
-    "enabled": true
+    "enabled": false
   },
   {
     "name": "Linux Administration & Scripting (Bash)",
@@ -173,7 +173,7 @@
   },
   {
     "name": "DevOps Environment Management & Infrastructure Support",
-    "enabled": true
+    "enabled": false
   }
 ],
     "technical_skills": {
