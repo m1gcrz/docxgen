@@ -14,7 +14,7 @@
     {
     "id": "support-focused",
     "title": "Support Engineer",
-    "text": "IT Support Engineer (Corporate Operations Engineer) focused on Implementation and Support of IT Assets for Multi-platforms - Windows/MacOS/Linux through tenure as ad-hoc support under an MSP with Operational knowledge of underlying Infrastructures",
+    "text": "Specialist experienced working as a Technician with broad exposure in the IT space for end users to quickly resolve business-impacting issues related to technology commonly found in the enterprise."
     "target_role": "Support Engineer",
     "enabled": true
   },
@@ -273,36 +273,36 @@
       ],
   "custom": [
     {
-      "title": "IT Operations Support and Administration",
+      "title": "Technical Support and Troubleshooting",
       "enabled": true,
       "skills": [
-        "Experience in making sure that clients and underlying systems are operational, reliable, reduce friction and up to standards based on company policy and best practices using the appropriate technology/tool like GPO - Active Directory, IAM, firewall policies, and other related servers that support the environment and its workloads."
+        "Experience as Ad Hoc helpdesk from field work, resolving a range of technical issues not limited to: remote/VPN - not able to connect to HQ/target networks, emails not being received/sent, software/productivity tools and hardware tasks working on Desktop/Laptop/Printer: upgrade/repair parts, File/Disk Recovery, Imaging, migration and other related activities."
       ]
     },
     {
-      "title": "Client side and Infrastructure",
+      "title": "Account Administration and Access Control",
       "enabled": true,
       "skills": [
-        ""
+        "Experience onboarding/offboarding, assigning/updating user credentials/permissions to give/remove access to a resource, creating new users/grops or other objects and other similar activities using directory services such as Active Directory."
       ]
     },
     {
-      "title": "Cloud",
+      "title": "RMM and IT Management Platforms",
       "enabled": true,
       "skills": [
-        "Worked with maintaining/administering managed servers that are hosted in the cloud, where entire chain is used to build and deploy applications from preprod to production"
+        "Experience working with ticketing systems to assess/prioritize tasks that needs to be done immediately e.g. Jira, familiar with tools such as spiceworks/zoho for remotely working on client machines. "
       ]
     },
     {
-      "title": "Programming languages",
+      "title": "Foundational & Cybersecurity",
       "enabled": true,
       "skills": [
-        "Used languages such as bash/powershell/python for admin related tasks and integration"
+        "Have worked with many different enterprise level environments, worked as technician for end users and implemented on the infrastructure level to achieve high availability and security of systems from the user perspective to the infrastructure level."
       ]
     },
     {
       "title": "Configuration Management and Terraform",
-      "enabled": true,
+      "enabled": false,
       "skills": [
         "Experience Codifying and maintaining infrrastructure state/config using Ansible and Terraform to handle fleets of servers and their respective cloud environments"
       ]
