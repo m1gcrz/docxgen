@@ -3,7 +3,7 @@ from jinja2 import Environment
 import json, re
 
 # Load both files
-with open("LLMgen-3.json") as f:
+with open("LLMgen-4.json") as f:
     raw = json.dumps(json.load(f))
 
 with open("valuesph.json") as f:
