@@ -24,7 +24,7 @@ jobs:
         run: pip install docxtpl jinja2
 
       - name: Generate DOCX
-        run: python build3.py
+        run: python build3prod.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
