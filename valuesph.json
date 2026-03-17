@@ -1,0 +1,23 @@
+{
+      "Candidate_Name": "candidatename",
+      "Candidate_mail": "candidatemail",
+      "Candidate_loc": "candidateloc",
+      "Candidate_phone": "candidatephone",
+      "job_company1": "job1",
+      "job_company1_position": "Technical Support Engineer/Network Solutions Engineer",
+      "job_company1_startdate": "Jun 2012",
+      "job_company1_enddate": "May 2016",
+      "job_company2": "job2",
+      "job_company2_position": "Systems Engineer",
+      "job_company2_startdate": "May 2016",
+      "job_company2_enddate": "Dec 2021",
+      "job_company3": "job3",
+      "job_company3_position": "App Engineering Analyst",
+      "job_company3_startdate": "Jan 2022",
+      "job_company3_enddate": "Oct 2024",
+      "job_company4": "job4",
+      "job_company4_position": "Infrastructure Consultant",
+      "job_company4_startdate": "Jan 2025",
+      "job_company4_enddate": "Present"
+
+    }

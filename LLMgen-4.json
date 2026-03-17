@@ -1,0 +1,449 @@
+{
+  "candidate": {
+    "name": "{{Candidate_Name}}",
+    "phone": "{{Candidate_phone}}",
+    "email": "{{Candidate_mail}}",
+    "location": "{{Candidate_loc}}",
+    "professional_summary":   [{
+    "id": "devops-focused",
+    "title": "DevOps Engineer",
+    "text": "Specialist experienced working with a high-volume Digital Telco carrier; focused on streamlining processes, tooling and collaborating with agile teams, delivering code to production while minimizing risks",
+    "target_role": "DevOps/SRE Engineer",
+    "enabled": true
+  },
+    {
+    "id": "support-focused",
+    "title": "Support Engineer",
+    "text": "IT Support Engineer (Corporate Operations Engineer) focused on Implementation and Support of IT Assets for Multi-platforms - Windows/MacOS/Linux through tenure as ad-hoc support under an MSP with Operational knowledge of underlying Infrastructures",
+    "target_role": "Support Engineer",
+    "enabled": false
+  },
+  {
+    "id": "security-focused",
+    "title": "Security Engineer",
+    "text": "DevSecOps specialist with expertise in cloud-native security, Infrastructure as Code, and vulnerability management. Certified Kubernetes Administrator with hands-on experience in F5 BIG-IP WAF, security appliances (Cisco, Fortinet), and DevSecOps automation across AWS, Azure, and GCP.",
+    "target_role": "DevSecOps/Security Engineer",
+    "enabled": false
+  },
+  {
+    "id": "infrastructure-focused",
+    "title": "Infrastructure Engineer",
+    "text": "Infrastructure Engineer handling automation and support of systems managed under GCP in an agile environment coordinating across teams",
+    "target_role": "Infrastructure Engineer",
+    "enabled": false
+  }],
+    "certifications": [
+      {
+        "name": "Certified Kubernetes Administrator (CKA)",
+        "details": "Linux Foundation, 2023",
+        "enabled": true
+      },
+      {
+        "name": "F5 Certified BIG-IP Administrator",
+        "details": "F5, 2019",
+        "enabled": false
+      },
+      {
+        "name": "CCNA Cisco Certified Network Associate (200-120)",
+        "details": "Cisco, 2014",
+        "enabled": false
+      },
+      {
+        "name": "VMware Certified Professional 6 - Network Virtualization (VCP6-NV)",
+        "details": "VMware, 2016",
+        "enabled": false
+      },
+      {
+        "name": "CMNA Certified Meraki Networking Associate",
+        "details": "Cisco, 2018",
+        "enabled": false
+      }
+    ],
+    "training": [
+      {
+        "name": "Fortinet, MSI-ECS. Taguig",
+        "details": "Sales & Technical",
+        "enabled": false
+      },
+      {
+        "name": "Cisco Small Business, Switchware. Ortigas",
+        "details": "Technical",
+        "enabled": false
+      },
+      {
+        "name": "Juniper SSG/Netscreen Firewalls, Westcon Group. Ortigas",
+        "details": "Technical",
+        "enabled": false
+      },
+      {
+        "name": "Juniper switching and security enablement, Westcon Group. Ortigas",
+        "details": "Technical",
+        "enabled": false
+      },
+      {
+        "name": "Cyberoam, Netplay, Manila",
+        "details": "Technical",
+        "enabled": false
+      },
+      {
+        "name": "Ruckus, ACW. Ortigas",
+        "details": "Technical",
+        "enabled": false
+      },
+      {
+        "name": "Exinda, APT secure. Makati",
+        "details": "Technical",
+        "enabled": false
+      },
+      {
+        "name": "Gateprotect, Sequoia technologies. Makati",
+        "details": "Sales & Technical",
+        "enabled": false
+      },
+      {
+        "name": "Cymphonix Network composer, International MicroVillage Inc. Makati",
+        "details": "Technical",
+        "enabled": false
+      },
+      {
+        "name": "ZTE Pre-sales training, MSI-ECS",
+        "details": "Sales & Technical",
+        "enabled": false
+      },
+      {
+        "name": "Network Security Basic Administrator Training, Dell. Eastwood",
+        "details": "Technical",
+        "enabled": false
+      },
+      {
+        "name": "Advantage Now, Cisco, 2013",
+        "details": "Sales & Technical",
+        "enabled": false
+      },
+      {
+        "name": "Cisco Business Edition 6000 System release 10, Cisco, 2014",
+        "details": "Technical",
+        "enabled": false
+      }
+    ],
+    "core_competencies": [
+  {
+    "name": "CI/CD Pipeline Management",
+    "enabled": true
+  },
+  {
+    "name": "Infrastructure as Code (Terraform, CloudFormation)",
+    "enabled": true
+  },
+  {
+    "name": "Certified Kubernetes Administrator (CKA)",
+    "enabled": true
+  },
+  {
+    "name": "Container Orchestration (Docker, Kubernetes)",
+    "enabled": true
+  },
+  {
+    "name": "AWS Cloud Infrastructure & Deployment",
+    "enabled": true
+  },
+  {
+    "name": "Production Automation with Python",
+    "enabled": true
+  },
+  {
+    "name": "Jenkins CI/CD Automation",
+    "enabled": true
+  },
+  {
+    "name": "Configuration Management (Ansible)",
+    "enabled": true
+  },
+  {
+    "name": "GitOps & Git-based Deployments",
+    "enabled": true
+  },
+  {
+    "name": "Linux Administration & Scripting (Bash)",
+    "enabled": true
+  },
+  {
+    "name": "Technical Leadership & Cross-Team Coordination",
+    "enabled": true
+  },
+  {
+    "name": "DevOps Environment Management & Infrastructure Support",
+    "enabled": true
+  }
+],
+    "technical_skills": {
+      "devops_tools": [
+        {
+          "enabled": false,
+          "category": "CI/CD & Version Control",
+          "skills": [
+            "Jenkins (pipelines, jobs, automation)",
+            "GitLab (pipelines, workflows, multi-project coordination, artifact/secrets management, container registry)",
+            "Git (branching, merge conflict resolution, submodules, CI principles)",
+            "GitOps (ArgoCD/Flux) and Git-based deployments",
+            "Sonarqube (code quality & scanning)",
+            "Maven/Gradle",
+            "npm"
+          ]
+        },
+        {
+          "enabled": false,
+          "category": "Container Orchestration",
+          "skills": [
+            "Kubernetes (deployment, pod management, clustering, troubleshooting)",
+            "Docker (image creation, volume mounting, environment variables, security best practices)",
+            "Helm (charts, lifecycle, repository management)",
+            "Skaffold",
+            "Microservices & related stacks (service mesh, observability)"
+          ]
+        },
+        {
+          "enabled": false,
+          "category": "Infrastructure as Code",
+          "skills": [
+            "Terraform (provisioners, configuration, providers, state management)",
+            "AWS CloudFormation (templates, stacks, change sets)"
+          ]
+        },
+        {
+          "enabled": false,
+          "category": "Configuration Management & Automation",
+          "skills": [
+            "Ansible (playbooks, tasks, vault, inventory management)"
+          ]
+        },
+        {
+          "enabled": false,
+          "category": "Observability & Logging",
+          "skills": [
+            "ELK Stack (Elasticsearch, Logstash, Kibana)",
+            "Splunk (enterprise monitoring and log analysis)"
+          ]
+        }
+      ],
+      "cloud_platforms": [
+        {
+          "name": "AWS",
+          "experience": "EC2, VPC, S3, CloudFormation, ECS, EKS, Lambda, CloudWatch, IAM, Security Groups, infrastructure deployment",
+          "enabled": false
+        },
+        {
+          "name": "Azure",
+          "experience": "VMs, VPN tunnel configuration, infrastructure management",
+          "enabled": false
+        },
+        {
+          "name": "GCP",
+          "experience": "GKE, BigQuery, Firebase, GitLab management",
+          "enabled": false
+        }
+      ],
+      "scripting_languages": [
+        "Python",
+        "Bash",
+        "PowerShell",
+        "Linux administration (disk management, permissions, cron, kernel)"
+      ],
+      "security_tools": [
+        {
+          "enabled": false,
+          "category": "Security Appliances",
+          "skills": [
+            "F5 BIG-IP (LTM, ASM/WAF)",
+            "Cisco (FTD, ASA, IOS, Meraki)",
+            "Fortinet (Fortigate/FortiOS)",
+            "Juniper (SRX)",
+            "Sophos, Sonicwall, Barracuda"
+          ]
+        },
+        {
+          "enabled": false,
+          "category": "Security Scanning & Testing",
+          "skills": [
+            "OWASP ZAP",
+            "Burp Suite",
+            "Katalon Recorder"
+          ]
+        }
+      ],
+  "custom": [
+    {
+      "title": "IT Operations Support and Administration",
+      "enabled": true,
+      "skills": [
+        "Experience in making sure that clients and underlying systems are operational, reliable, reduce friction and up to standards based on company policy and best practices using the appropriate technology/tool like GPO - Active Directory, IAM, firewall policies, and other related servers that support the environment and its workloads."
+      ]
+    },
+    {
+      "title": "Client side and Infrastructure",
+      "enabled": true,
+      "skills": [
+        ""
+      ]
+    },
+    {
+      "title": "Cloud",
+      "enabled": true,
+      "skills": [
+        "Worked with maintaining/administering managed servers that are hosted in the cloud, where entire chain is used to build and deploy applications from preprod to production"
+      ]
+    },
+    {
+      "title": "Programming languages",
+      "enabled": true,
+      "skills": [
+        "Used languages such as bash/powershell/python for admin related tasks and integration"
+      ]
+    },
+    {
+      "title": "Configuration Management and Terraform",
+      "enabled": true,
+      "skills": [
+        "Experience Codifying and maintaining infrrastructure state/config using Ansible and Terraform to handle fleets of servers and their respective cloud environments"
+      ]
+    }
+    ]
+
+    },
+    "experience": [
+      {
+    "position": "{{job_company4_position}}",
+    "company": "{{job_company4}}",
+    "startDate": "{{job_company4_startdate}}",
+    "endDate": "{{job_company4_enddate}}",
+    "description": "{{job_company4_experience}}",
+    "enabled": true,
+    "achievements": [
+      {
+        "detail": "Standardized, Automated and Implemented Security controls that meet compliance standards via Cloud-native controls, services and platforms (Fortigate, F5 and Cisco)",
+        "enabled": true
+      },
+      {
+        "detail": "Wireless Network Enterprise Design - enterprise Wi-Fi planning, site surveys, and design best practices",
+        "enabled": true
+      }
+    ]
+  },
+      {
+        "position": "{{job_company3_position}}",
+        "company": "{{job_company3}}",
+        "startDate": "{{job_company3_startdate}}",
+        "endDate": "{{job_company3_enddate}}",
+        "description": "{{job_company3_experience}}",
+        "enabled": true,
+        "achievements": [
+          {
+            "detail": "Support and maintain CI/CD environments and infrastructure used to facilitate processes and tooling in deploying changes to the web or app service",
+            "enabled": true
+          },
+          {
+            "detail": "Collaborate with developers during deployment in staging and production environments, ensuring pipeline stability and deployment reliability",
+            "enabled": true
+          },
+          {
+            "detail": "Work with relevant teams to develop and integrate new tools into the CI/CD workflow and deployment pipeline",
+            "enabled": true
+          },
+          {
+            "detail": "Monitor for any issues that may arise in the CICD process",
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "position": "{{job_company2_position}}",
+        "company": "{{job_company2}}",
+        "startDate": "{{job_company2_startdate}}",
+        "endDate": "{{job_company2_enddate}}",
+        "description": "{{job_company2_experience}}",
+        "enabled": true,
+        "achievements": [
+          {
+            "detail": "Acted as Technical Lead for implementation of infrastructure and deployment automation",
+            "enabled": false
+          },
+          {
+            "detail": "Act as Technical Lead for Implementation of Network Infrastructures",
+            "enabled": true
+          },
+          {
+            "detail": "Conducted proof-of-concept (POC) evaluations for DevOps and infrastructure solutions",
+            "enabled": false
+          },
+          {
+            "detail": "Implementation and Support of Microsoft related Infrastructures",
+            "enabled": true
+          },
+          {
+            "detail": "Conduct POC of Solutions",
+            "enabled": true
+          },
+          { "detail": "Implementation and support of AWS cloud infrastructure and deployment tooling",
+            "enabled": false
+          }
+        ]
+      },
+      {
+        "position": "{{job_company1_position}}",
+        "company": "{{job_company1}}",
+        "startDate": "{{job_company1_startdate}}",
+        "endDate": "{{job_company1_enddate}}",
+        "description": "{{job_company1_experience}}",
+        "enabled": true,
+        "achievements": [
+          {
+            "detail": "Design, Implementation and support of pre-sales and post-sales projects' technical aspects.",
+            "enabled": true
+          },
+          {
+            "detail": "Configuration of networking equipment to fulfill requirements.",
+            "enabled": false
+          },
+          {
+            "detail": "Work with account managers as network consultant.",
+            "enabled": true
+          },
+          {
+            "detail": "Documentation of projects.",
+            "enabled": false
+          },
+          {
+            "detail": "Meet with clients to discuss their requirements and possible solutions.",
+            "enabled": true
+          },
+          {
+            "detail": "Conducting site surveys for determining line of sight, physical and radio Interferences for wireless solutions.",
+            "enabled": false
+          },
+          {
+            "detail": "Coordinating with partners to resolve or complete projects.",
+            "enabled": false
+          },
+          {
+            "detail": "Conduct knowledge transfer or technical training to client as requested.",
+            "enabled": true
+          },
+          {
+            "detail": "Maintain our organization's computer systems.",
+            "enabled": true
+          },
+          {
+            "detail": "Service client's computer systems.",
+            "enabled": false
+          }
+        ]
+      }
+    ],
+    "references": [
+      {
+        "name": "Available upon request",
+        "contact": "Upon request"
+      }
+    ]
+  }
+}
