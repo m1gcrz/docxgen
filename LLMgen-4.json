@@ -398,7 +398,7 @@
         "achievements": [
           {
             "detail": "Design, Implementation and support of pre-sales and post-sales projects' technical aspects.",
-            "enabled": true
+            "enabled": false
           },
           {
             "detail": "Configuration of networking equipment to fulfill requirements.",
@@ -406,7 +406,7 @@
           },
           {
             "detail": "Work with account managers as network consultant.",
-            "enabled": true
+            "enabled": false
           },
           {
             "detail": "Documentation of projects.",
@@ -434,7 +434,7 @@
           },
           {
             "detail": "Service client's computer systems.",
-            "enabled": false
+            "enabled": true
           }
         ]
       }
