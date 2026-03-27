@@ -24,10 +24,19 @@ jobs:
         run: pip install docxtpl jinja2
 
       - name: Generate DOCX
-        run: python build3prod.py
+        run: python build3.py
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: generated-docx
-          path: res6ph.docx
+      - name: Upload to OneDrive
+        run: |
+          TOKEN=$(curl -s -X POST \
+            "https://login.microsoftonline.com/${{ secrets.AZURE_TENANT_ID }}/oauth2/v2.0/token" \
+            -d "client_id=${{ secrets.AZURE_CLIENT_ID }}" \
+            -d "scope=https://graph.microsoft.com/.default" \
+            -d "client_secret=${{ secrets.AZURE_CLIENT_SECRET }}" \
+            -d "grant_type=client_credentials" | python -c "import sys,json; print(json.load(sys.stdin)['access_token'])")
+
+          curl -s -X PUT \
+            "https://graph.microsoft.com/v1.0/users/${{ secrets.ONEDRIVE_USER_EMAIL }}/drive/root:/GeneratedDocs/res6ph.docx:/content" \
+            -H "Authorization: Bearer $TOKEN" \
+            -H "Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document" \
+            --data-binary @res6ph.docx
