@@ -404,19 +404,19 @@
         "achievements": [
           {
             "detail": "Design, Implementation and support of pre-sales and post-sales projects' technical aspects.",
-            "enabled": false
+            "enabled": true
           },
           {
             "detail": "Configuration of networking equipment to fulfill requirements.",
-            "enabled": false
+            "enabled": true
           },
           {
             "detail": "Work with account managers as network consultant.",
-            "enabled": false
+            "enabled": true
           },
           {
             "detail": "Documentation of projects.",
-            "enabled": false
+            "enabled": true
           },
           {
             "detail": "Meet with clients to discuss their requirements and possible solutions.",
@@ -424,11 +424,11 @@
           },
           {
             "detail": "Conducting site surveys for determining line of sight, physical and radio Interferences for wireless solutions.",
-            "enabled": false
+            "enabled": true
           },
           {
             "detail": "Coordinating with partners to resolve or complete projects.",
-            "enabled": false
+            "enabled": true
           },
           {
             "detail": "Conduct knowledge transfer or technical training to client as requested.",
@@ -440,7 +440,7 @@
           },
           {
             "detail": "Service client's computer systems.",
-            "enabled": true
+            "enabled": false
           }
         ]
       }
