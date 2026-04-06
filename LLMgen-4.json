@@ -16,7 +16,7 @@
     "title": "Support Engineer",
     "text": "Specialist experienced working as a Technician with broad exposure in the IT space for end users to quickly resolve business-impacting issues related to technology commonly found in the enterprise.",
     "target_role": "Support Engineer",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": "security-focused",
@@ -28,9 +28,9 @@
   {
     "id": "infrastructure-focused",
     "title": "Infrastructure Engineer",
-    "text": "Infrastructure Engineer handling automation and support of systems managed under GCP in an agile environment coordinating across teams",
+    "text": "Specialist working with Enterprise greenfield/brownfield networks, worked with Cisco and other vendors through reseller channels, I bring DevOps/agile practices to networking",
     "target_role": "Infrastructure Engineer",
-    "enabled": false
+    "enabled": true
   }],
     "certifications": [
       {
@@ -41,29 +41,29 @@
       {
         "name": "F5 Certified BIG-IP Administrator",
         "details": "F5, 2019",
-        "enabled": false
+        "enabled": true
       },
       {
         "name": "CCNA Cisco Certified Network Associate (200-120)",
         "details": "Cisco, 2014",
-        "enabled": false
+        "enabled": true
       },
       {
         "name": "VMware Certified Professional 6 - Network Virtualization (VCP6-NV)",
         "details": "VMware, 2016",
-        "enabled": false
+        "enabled": true
       },
       {
         "name": "CMNA Certified Meraki Networking Associate",
         "details": "Cisco, 2018",
-        "enabled": false
+        "enabled": true
       }
     ],
     "training": [
       {
         "name": "Fortinet, MSI-ECS. Taguig",
         "details": "Sales & Technical",
-        "enabled": false
+        "enabled": true
       },
       {
         "name": "Cisco Small Business, Switchware. Ortigas",
@@ -78,7 +78,7 @@
       {
         "name": "Juniper switching and security enablement, Westcon Group. Ortigas",
         "details": "Technical",
-        "enabled": false
+        "enabled": true
       },
       {
         "name": "Cyberoam, Netplay, Manila",
@@ -88,7 +88,7 @@
       {
         "name": "Ruckus, ACW. Ortigas",
         "details": "Technical",
-        "enabled": false
+        "enabled": true
       },
       {
         "name": "Exinda, APT secure. Makati",
@@ -113,7 +113,7 @@
       {
         "name": "Network Security Basic Administrator Training, Dell. Eastwood",
         "details": "Technical",
-        "enabled": false
+        "enabled": true
       },
       {
         "name": "Advantage Now, Cisco, 2013",
@@ -273,29 +273,29 @@
       ],
   "custom": [
     {
-      "title": "Technical Support and Troubleshooting",
+      "title": "Network Support and Troubleshooting",
       "enabled": true,
       "skills": [
-        "Experience as Ad Hoc helpdesk from field work, resolving a range of technical issues not limited to: remote/VPN - not able to connect to HQ/target networks, emails not being received/sent, software/productivity tools and hardware tasks working on Desktop/Laptop/Printer: upgrade/repair parts, File/Disk Recovery, Imaging, migration and other related activities."
+        "Experience supporting and troubleshooting networks where issues could be connectivity, ACLs, routing or spanning tree related."
       ]
     },
     {
-      "title": "Account Administration and Access Control",
+      "title": "DevOps",
       "enabled": true,
       "skills": [
-        "Experience onboarding/offboarding, assigning/updating user credentials/permissions to give/remove access to a resource, creating new users/groups or other objects and other similar activities using directory services such as Active Directory."
+        "Experience working with devops culture and tools in a cloud environment - ansible, terraform and scripting languages powershell/bash/python."
       ]
     },
     {
       "title": "RMM and IT Management Platforms",
-      "enabled": true,
+      "enabled": false,
       "skills": [
         "Experience working with ticketing systems to assess/prioritize tasks that needs to be done immediately e.g. Jira, familiar with tools such as spiceworks/zoho for remotely working on client machines. "
       ]
     },
     {
       "title": "Foundational & Cybersecurity",
-      "enabled": true,
+      "enabled": false,
       "skills": [
         "Have worked with many different enterprise level environments, worked as technician for end users and implemented on the infrastructure level to achieve high availability and security of systems from the user perspective to the infrastructure level."
       ]
@@ -309,9 +309,9 @@
     },
     {
       "title": "Reporting and Documentation",
-      "enabled": false,
+      "enabled": true,
       "skills": [
-        "Have worked with many different enterprise level projects I have led that involves tagging, collating details such as serial numbers, state of the asset/s, quantity, points of contact, and other relevant details."
+        "Have led enterprise level projects throughout its lifecycle, Implementation to support this includes Architecture, MoP, preventive maintenance reports to Operation manuals."
       ]
     }
   ]
